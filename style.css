@@ -15,7 +15,7 @@
   
   .apple-header {
     background-color: #1d1d1f;
-    padding: 10px 20px;
+    padding: 0.8rem;
     position: sticky;
     top: 0;
   }
@@ -34,8 +34,8 @@
   
   .nav-links {
     display: flex;
-    gap: 2rem;
-    font-size: 0.6rem;
+    gap: 2.5rem;
+    font-size: 0.5rem;
   }
   
   .nav-links a {
@@ -50,7 +50,7 @@
   
   .icons {
     display: flex;
-    gap: 1rem;
+    gap: 2.5rem;
     font-size: 1rem;
   }
   
