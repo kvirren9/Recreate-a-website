@@ -80,3 +80,12 @@ footer {
 .footer-base a:hover {
   text-decoration: underline;
 }
+
+.footer-link {
+  color: #06c; /* Apple-blå */
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
