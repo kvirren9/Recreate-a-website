@@ -9,9 +9,10 @@
   }
   h2{
     font-size: 4rem;
+    font-weight: 600;
   }
   body {
-    font-family: sans-serif;
+    font-family: -apple-system, sans-serif;
     background-color: #ffffff;
     color: #fff;
   }
@@ -81,13 +82,13 @@
   }
   .hero-content {
     position: absolute;
-    top: 10%; 
+    top: 5%; 
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 20px;
+    
   }
   
 .hero-section1{
@@ -104,11 +105,34 @@
     margin-top: 1rem;
   }
   button{
-    width: 10rem;
-    height: 3rem;
-    border-radius: 2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 1rem 1.6rem;
+    border-radius: 2.5rem;
+    margin-right: 1rem;
+
   }
   .read-button{
-    background-color: rgb(50, 47, 206);
+    color: #fff;
+    background-color: rgb(55, 85, 255);
+    
   }
+  .buy-button{
+    color: rgb(55, 85, 255);
+    background-color: hsla(231, 100%, 61%, 0);;
+    border-color: rgb(55, 85, 255);;
+    border-width: 2px;
+  }
+  .read-button2{
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    
+  }
+  .buy-button2{
+    color: rgb(255, 255, 255);
+    background-color: hsla(231, 100%, 61%, 0);;
+    border-color: rgb(255, 255, 255);;
+    border-width: 2px;
+  }
+  
   
