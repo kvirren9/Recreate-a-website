@@ -1,0 +1,14 @@
+@media (max-width: 833px) {
+   
+    .nav-links {
+      display: none;
+    }
+  
+    .icons .bi-list {
+      display: inline-block;
+    }
+  
+    .nav-container {
+      justify-content: space-between; 
+    }
+  }

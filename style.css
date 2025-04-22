@@ -6,6 +6,7 @@
   }
   h1{
     font-size: 1rem;
+    margin-right: 1rem;
   }
   h2{
     font-size: 4rem;
@@ -16,9 +17,11 @@
     background-color: #ffffff;
     color: #fff;
   }
-  
+  .icons .bi-list {
+    display: none;
+  }
   .apple-header {
-    background-color: #1d1d1f;
+    background-color: rgb(29, 29, 31);
     padding: 0.8rem;
     position: sticky;
     top: 0;
@@ -27,26 +30,25 @@
   
   .nav-container {
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
     max-width: 1100px;
     margin: 0 auto;
   }
   
-  .logo {
-    font-size: 2rem;
-  }
-  
   .nav-links {
-    display: flex;
-    gap: 2.5rem;
-    font-size: 0.5rem;
+  display: flex;
+  justify-content: center;
+  flex: 1;
   }
-  
+  .nav-links a{
+  flex-grow: 1; 
+  flex-shrink: 1; 
+  }
   .nav-links a {
     color: #d2d2d7;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   
   .nav-links a:hover {
@@ -55,12 +57,12 @@
   
   .icons {
     display: flex;
-    gap: 2.5rem;
-    font-size: 1rem;
+    gap: 3rem;
+    
   }
   
   .hero {
-    height: 800px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
