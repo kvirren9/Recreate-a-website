@@ -15,13 +15,13 @@
   body {
     font-family: -apple-system, sans-serif;
     background-color: #ffffff;
-    color: #fff;
+    color: #000000;
   }
   .icons .bi-list {
     display: none;
   }
   .apple-header {
-    background-color: rgb(29, 29, 31);
+    background-color: rgb(241, 243, 244);
     padding: 0.8rem;
     position: sticky;
     top: 0;
@@ -46,13 +46,9 @@
   flex-shrink: 1; 
   }
   .nav-links a {
-    color: #d2d2d7;
+    color: #000000;
     text-decoration: none;
     font-size: 0.8rem;
-  }
-  
-  .nav-links a:hover {
-    color: #fff;
   }
   
   .icons {
@@ -67,7 +63,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     position: relative; 
   }
   
@@ -78,10 +74,7 @@
     object-fit: cover;
     display: block;
   }
-  .hero-section2 img{
-    max-width: 50%;
-  height: auto;
-  }
+  
   .hero-content {
     position: absolute;
     top: 5%; 
@@ -94,23 +87,18 @@
   }
   
 .hero-section1{
-  background-color: #000000;
+  background-color: rgb(245, 245, 247);
   margin-bottom: 1rem;
 }
-  .hero-section2 {
-    background: linear-gradient(to bottom, #091769, #ffffff);
-    height: 1000px;
-  }
-  .hero-section2 img{
-    margin-top: 300px;
-  }
+
+  
   .hero-button{
     margin-top: 1rem;
   }
   button{
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
-    padding: 1rem 1.6rem;
+    padding: 1rem 1rem;
     border-radius: 2.5rem;
     margin-right: 1rem;
 
@@ -118,6 +106,7 @@
   .read-button{
     color: #fff;
     background-color: rgb(55, 85, 255);
+    border: none;
     
   }
   .buy-button{
