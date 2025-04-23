@@ -89,3 +89,8 @@ footer {
 .footer-link:hover {
   text-decoration: underline;
 }
+
+.footer-flex {
+  display: flex;
+  justify-content: flex-end;
+}
