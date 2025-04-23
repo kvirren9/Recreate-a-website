@@ -21,7 +21,7 @@
     display: none;
   }
   .apple-header {
-    background-color: rgb(241, 243, 244);
+    background-color: rgba(255, 255, 255, 0.982);
     padding: 0.8rem;
     position: sticky;
     top: 0;
@@ -90,22 +90,28 @@
   background-color: rgb(245, 245, 247);
   margin-bottom: 1rem;
 }
-
-  
+.hero-section2
+{
+  background-color: rgb(245, 245, 247);;
+}
+  .hero p{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
   .hero-button{
     margin-top: 1rem;
   }
   button{
     font-size: 1rem;
     font-weight: 400;
-    padding: 1rem 1rem;
+    padding: 0.8rem 1.5rem.8rem 1.5rem;
     border-radius: 2.5rem;
     margin-right: 1rem;
+    background-color: rgb(78, 104, 249);
 
   }
   .read-button{
     color: #fff;
-    background-color: rgb(55, 85, 255);
     border: none;
     
   }
@@ -115,26 +121,27 @@
     border-color: rgb(55, 85, 255);;
     border-width: 2px;
   }
-  .read-button2{
-    color: #000000;
-    background-color: rgb(255, 255, 255);
-    
-  }
-  .buy-button2{
-    color: rgb(255, 255, 255);
-    background-color: hsla(231, 100%, 61%, 0);;
-    border-color: rgb(255, 255, 255);;
-    border-width: 2px;
-  }
   .split-section {
     display: flex; 
     justify-content: center; 
     align-items: center; 
     gap: 1rem;
   }
-  .split{
-    width: 100%;
-    margin: 0 1rem 0 1rem;
+  .split-section h2,
+  .split-section p{
+    color: hsl(0, 0%, 100%);
+  }
+  .split-section h2{
+    font-size: 2.5rem;
+  }
+  .split-section button{
+    padding:0.6rem 1.3rem.6rem 1.3rem ;
+  }
+  .split1{
+    margin: 1rem 0 1rem 1rem;
+  }
+  .split2{
+    margin: 1rem 1rem 1rem 0;
   }
   
   
