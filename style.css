@@ -66,11 +66,13 @@
     color: rgb(0, 0, 0);
     position: relative; 
   }
-  
+  #small-watch{
+    display: none;
+  }
   .hero img {
     width: 100%;
     max-width: 1200px;
-    height: 100%;
+    height: 700px;
     object-fit: cover;
     display: block;
   }
@@ -95,7 +97,7 @@
   background-color: rgb(245, 245, 247);;
 }
   .hero p{
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-top: 1rem;
   }
   .hero-button{
@@ -106,7 +108,7 @@
     font-weight: 400;
     padding: 0.8rem 1.5rem.8rem 1.5rem;
     border-radius: 2.5rem;
-    margin-right: 1rem;
+    
     background-color: rgb(78, 104, 249);
 
   }
@@ -135,18 +137,40 @@
     font-size: 2.5rem;
   }
   .split-section button{
-    padding:0.6rem 1.3rem.6rem 1.3rem ;
+    padding:0.5rem 1.1rem 0.5rem 1.1rem ;
   }
   .split1{
+    width: 100%;
     margin: 1rem 0 1rem 1rem;
+    background-color: #000000;
+    
   }
   .split2{
+    width: 100%;
     margin: 1rem 1rem 1rem 0;
+    background-color: #000000;
   }
   
-  .split1,
-  .split2{
-    height: 650px;
+  .split1 img,
+  .split2 img{
+  height: 1000px;
   width: 100%;
-  
+  background-color: black;
+
+  }
+  @media (max-width: 1068px) 
+  {
+    .hero img {
+      width: 100%;
+      height: 550px;
+    }
+    .split-section h2{
+      font-size: 1.5rem;
+    }
+    .split1 img,
+    .split2 img{
+    height: 500px;
+    width: 100%;
+    
+    }
   }
