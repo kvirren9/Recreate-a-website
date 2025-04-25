@@ -13,7 +13,7 @@
     font-weight: 600;
   }
   body {
-    font-family: -apple-system, sans-serif;
+    font-family: Helvetica, sans-serif;
     background-color: #ffffff;
     color: #000000;
   }
@@ -85,9 +85,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    width: 100%;
   }
-  
+.uppercase{
+  text-transform: uppercase;
+}
 .hero-section1{
   background-color: rgb(245, 245, 247);
   margin-bottom: 1rem;
@@ -97,19 +99,18 @@
   background-color: rgb(245, 245, 247);;
 }
   .hero p{
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-top: 1rem;
   }
   .hero-button{
     margin-top: 1rem;
   }
   button{
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 400;
     padding: 0.8rem 1.5rem.8rem 1.5rem;
     border-radius: 2.5rem;
-    
-    background-color: rgb(78, 104, 249);
+    background-color: #06c;
 
   }
   .read-button{
@@ -118,9 +119,9 @@
     
   }
   .buy-button{
-    color: rgb(55, 85, 255);
+    color: #06c;
     background-color: hsla(231, 100%, 61%, 0);;
-    border-color: rgb(55, 85, 255);;
+    border-color: #06c;
     border-width: 2px;
   }
   .split-section {
@@ -156,7 +157,10 @@
   height: 1000px;
   width: 100%;
   background-color: black;
-
+  }
+  .split1 p,
+  .split2 p{
+    font-size: 1.2rem;
   }
   @media (max-width: 1068px) 
   {
@@ -165,12 +169,16 @@
       height: 550px;
     }
     .split-section h2{
-      font-size: 1.5rem;
+      font-size: 1.8rem;
     }
     .split1 img,
     .split2 img{
     height: 500px;
     width: 100%;
     
+    }
+
+    .hero h2{
+      font-size: 2.5rem;
     }
   }

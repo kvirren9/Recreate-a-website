@@ -10,10 +10,7 @@
   .nav-container {
     justify-content: space-between;
   }
-}
 
-/* ===== Mobilanpassning av footern ===== */
-@media (max-width: 839px) {
   /* Dölj desktop-footern på mobil */
   .footer-menu {
     display: none;
